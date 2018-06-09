@@ -6,8 +6,11 @@ clicks and orders per each project_id, and additionally conversion rate CR=order
 
 # Release notes
 
-Python3 and postgres 9.3 is needed. Table schema is in **create.sql**, statistic query is in **stats.sql**.
-We can record random data in tables using **data_generator.py**
+Python3 and postgres 9.3 is needed. Table schema is in **create.sql**, statistic query is in 
+[**stats.sql**](https://github.com/moonsly/sql_statistics/blob/master/stats.sql)
+
+We can record random data in tables using 
+[**data_generator.py**](https://github.com/moonsly/sql_statistics/blob/master/data_generator.py)
 
 # Tests
 
