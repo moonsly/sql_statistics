@@ -22,7 +22,7 @@ def db_connect(db_name=db_name, db_user=db_user, db_pass=db_pass):
 
 def generate_data(conn, max_pid=10000):
     """ Заполнить таблицы данными с помощью BULK INSERT """
-    bulk_count = 10
+    bulk_count = 500
 
     current_datetime = datetime.now() - timedelta(days=30)
     start_time = current_datetime
